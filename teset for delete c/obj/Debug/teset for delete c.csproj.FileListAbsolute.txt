@@ -1,0 +1,7 @@
+C:\Users\Sina\source\repos\teset for delete c\teset for delete c\obj\Debug\teset for delete c.csprojAssemblyReference.cache
+C:\Users\Sina\source\repos\teset for delete c\teset for delete c\obj\Debug\teset for delete c.csproj.CoreCompileInputs.cache
+C:\Users\Sina\source\repos\teset for delete c\teset for delete c\bin\Debug\teset for delete c.exe.config
+C:\Users\Sina\source\repos\teset for delete c\teset for delete c\bin\Debug\teset for delete c.exe
+C:\Users\Sina\source\repos\teset for delete c\teset for delete c\bin\Debug\teset for delete c.pdb
+C:\Users\Sina\source\repos\teset for delete c\teset for delete c\obj\Debug\teset for delete c.exe
+C:\Users\Sina\source\repos\teset for delete c\teset for delete c\obj\Debug\teset for delete c.pdb
