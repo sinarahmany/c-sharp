@@ -11,6 +11,11 @@ namespace teset_for_delete_c
         static void Main(string[] args)
         {
             Console.WriteLine("Hello c#");
+            Console.Write("123\n");
+            Console.Write("no line break");
+            
+
+
             Console.ReadLine();
 
         }
