@@ -8,32 +8,42 @@ namespace teset_for_delete_c
 {
     class Program
     {
+        enum weekdays
+        {
+            Monday = 1, tuesday, wednesday, Thursday, friday
+        }
+
+        struct dog
+        {
+            public int birthyear;
+            public string name;
+            public bool isFriendly;
+
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello c#");
-            Console.Write("123\n");
-            Console.Write("no line break");
+            // Variables.body();
+            Console.WriteLine($"the enum weekdays monday is :{weekdays.Monday.ToString()}");
+            Console.WriteLine($"... value is :{(int)weekdays.Monday}");
+            Console.WriteLine("\n\n");
 
-            byte byteVar = 1;
-            Console.WriteLine($"the byteVar value is {byteVar}");
-            Console.WriteLine($"the max value for byte is {byte.MaxValue}");
-            Console.WriteLine($"the min ...{byte.MinValue}");
-            Console.WriteLine($"the size of byte {sizeof(byte)}");
+            dog doggy;
+            doggy.birthyear = 2019;
+            doggy.name = "sparky";
+            doggy.isFriendly = true;
+            Console.WriteLine("printing doggy struct");
+            Console.WriteLine($"hello my name is {doggy.name},"+$"i was born at{doggy.birthyear}"+$"people say i am friendly thats {doggy.isFriendly}.");
 
-            char charVarUnhide = '\u01A9';
-            Console.WriteLine($"the cahrvarunhide value is :{charVarUnhide}");
+
+            Console.WriteLine("\n");
+            Console.WriteLine("\t this is tab");
+            Console.WriteLine("/\\ /\\");
+            Console.WriteLine("shhe ssid \"yes\"");
+            Console.WriteLine("helll\boo");
+            Console.WriteLine("\a");
+            Console.WriteLine("thiis is the symbol of PI \u03c0");
             Console.WriteLine("\n");
 
-
-            decimal decival = 345345;
-            Console.WriteLine($"the value is :{decival} ");
-            Console.WriteLine($"teh value with new format string"+string.Format("{0:n0}",decival));
-
-            decimal decival2 = 345_345;
-            Console.WriteLine($"the value is :{decival2} ");
-
-            //  _ make no changes between numbers 
-            Console.WriteLine($"the max decimal is{string.Format("{0:n0}" ,decimal.MaxValue)}");
 
             Console.ReadLine();
 
